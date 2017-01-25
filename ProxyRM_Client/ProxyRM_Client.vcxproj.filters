@@ -24,7 +24,7 @@
     <ClInclude Include="targetver.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Camera.h">
+    <ClInclude Include="RemoteController.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="ITake.h">
@@ -33,24 +33,12 @@
     <ClInclude Include="common.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="ListenServer.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Stub.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Camera.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ListenServer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Stub.cpp">
+    <ClCompile Include="RemoteController.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Demo.cpp">
